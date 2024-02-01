@@ -8,9 +8,9 @@ class Person:
 
     def show(self, n1, n2):
         """Doc - Inside Show"""
-       
+
         print("Sum = {}".format((n1 + n2)))
-        return (n1 + n2)
+        return n1 + n2
 
     def __del__(self):
         print("Destructor Deleting object - {}".format(self.n_name))
